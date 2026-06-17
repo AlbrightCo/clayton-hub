@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/structure", "destination": "https://clayton-tracker.vercel.app/structure" },
+    { "source": "/structure/:path*", "destination": "https://clayton-tracker.vercel.app/structure/:path*" },
+    { "source": "/solar", "destination": "https://clayton-solar.vercel.app/solar" },
+    { "source": "/solar/:path*", "destination": "https://clayton-solar.vercel.app/solar/:path*" },
+    { "source": "/", "destination": "https://clayton-solar.vercel.app/" }
+  ]
+}
